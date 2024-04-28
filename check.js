@@ -1,5 +1,5 @@
 // script.js
-
+<script>
 function checkLogin(event) {
   event.preventDefault(); // 阻止表单默认提交行为
 
@@ -12,3 +12,4 @@ function checkLogin(event) {
     alert('用户名或密码错误，请重试！'); // 如果用户名或密码不匹配，弹出提示
   }
 }
+  </script>
