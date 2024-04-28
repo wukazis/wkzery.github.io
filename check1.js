@@ -1,3 +1,4 @@
+<script>
 function checkPassword() {
       var password = document.getElementById("password").value;
       if (password === "wukazi") {
@@ -7,3 +8,4 @@ function checkPassword() {
         document.getElementById("message").innerText = "密码错误，请重新输入！";
       }
     }
+      </script>
